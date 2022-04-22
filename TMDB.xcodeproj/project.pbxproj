@@ -7,23 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F68E7C152812FD870065C4C7 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F68E7C142812FD870065C4C7 /* Realm */; };
+		F68E7C172812FD870065C4C7 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F68E7C162812FD870065C4C7 /* RealmSwift */; };
+		F68E7C192812FEA10065C4C7 /* MovieModelRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E7C182812FEA10065C4C7 /* MovieModelRealm.swift */; };
+		F6E345682811D76C00BD9014 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6E345672811D76C00BD9014 /* GoogleService-Info.plist */; };
+		F6E3456B2811E03F00BD9014 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F6E3456A2811E03F00BD9014 /* FirebaseAuth */; };
+		F6E3456D2811E03F00BD9014 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F6E3456C2811E03F00BD9014 /* FirebaseFirestore */; };
 		F6E52CBE280F460F00684410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E52CBD280F460F00684410 /* AppDelegate.swift */; };
 		F6E52CC0280F460F00684410 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E52CBF280F460F00684410 /* SceneDelegate.swift */; };
-		F6E52CC2280F460F00684410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E52CC1280F460F00684410 /* ViewController.swift */; };
 		F6E52CC5280F460F00684410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E52CC3280F460F00684410 /* Main.storyboard */; };
 		F6E52CC7280F461200684410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E52CC6280F461200684410 /* Assets.xcassets */; };
 		F6E52CCA280F461200684410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E52CC8280F461200684410 /* LaunchScreen.storyboard */; };
+		F6E52CD3280F46D900684410 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F6E52CD2280F46D900684410 /* Alamofire */; };
+		F6E52CD5280F489900684410 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E52CD4280F489900684410 /* Constants.swift */; };
+		F6E52CD7280F4C2E00684410 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E52CD6280F4C2E00684410 /* MovieData.swift */; };
+		F6E52CDB280F559500684410 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E52CDA280F559500684410 /* MovieManager.swift */; };
+		F6F60FBE2810522C0061AD14 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F60FBD2810522C0061AD14 /* MovieListViewController.swift */; };
+		F6F60FC0281052580061AD14 /* FavoriteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F60FBF281052570061AD14 /* FavoriteListViewController.swift */; };
+		F6F60FC3281057D90061AD14 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F60FC1281057D90061AD14 /* MovieTableViewCell.swift */; };
+		F6F60FC4281057D90061AD14 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F60FC2281057D90061AD14 /* MovieTableViewCell.xib */; };
+		F6F60FC628105FD90061AD14 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F60FC528105FD90061AD14 /* LoginViewController.swift */; };
+		F6F60FC82810600C0061AD14 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F60FC72810600C0061AD14 /* RegisterViewController.swift */; };
+		F6F60FCA2810602F0061AD14 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F60FC92810602F0061AD14 /* WelcomeViewController.swift */; };
+		F6F60FD028108A0A0061AD14 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F60FCF28108A0A0061AD14 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F68E7C182812FEA10065C4C7 /* MovieModelRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModelRealm.swift; sourceTree = "<group>"; };
+		F6E345672811D76C00BD9014 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F6E52CBA280F460F00684410 /* TMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E52CBD280F460F00684410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6E52CBF280F460F00684410 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F6E52CC1280F460F00684410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6E52CC4280F460F00684410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6E52CC6280F461200684410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6E52CC9280F461200684410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6E52CCB280F461200684410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E52CD4280F489900684410 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F6E52CD6280F4C2E00684410 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		F6E52CDA280F559500684410 /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		F6F60FBD2810522C0061AD14 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		F6F60FBF281052570061AD14 /* FavoriteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListViewController.swift; sourceTree = "<group>"; };
+		F6F60FC1281057D90061AD14 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		F6F60FC2281057D90061AD14 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		F6F60FC528105FD90061AD14 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F6F60FC72810600C0061AD14 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F6F60FC92810602F0061AD14 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F6F60FCF28108A0A0061AD14 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +60,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E52CD3280F46D900684410 /* Alamofire in Frameworks */,
+				F6E3456B2811E03F00BD9014 /* FirebaseAuth in Frameworks */,
+				F68E7C152812FD870065C4C7 /* Realm in Frameworks */,
+				F68E7C172812FD870065C4C7 /* RealmSwift in Frameworks */,
+				F6E3456D2811E03F00BD9014 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F68E7C1B2813135E0065C4C7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F68E7C1D2813137C0065C4C7 /* ServiceAPI */,
+				F68E7C1C281313730065C4C7 /* Data */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F68E7C1C281313730065C4C7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F6E52CD6280F4C2E00684410 /* MovieData.swift */,
+				F68E7C182812FEA10065C4C7 /* MovieModelRealm.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F68E7C1D2813137C0065C4C7 /* ServiceAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F6E52CDA280F559500684410 /* MovieManager.swift */,
+			);
+			path = ServiceAPI;
+			sourceTree = "<group>";
+		};
+		F68E7C1E281313D00065C4C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F68E7C23281314100065C4C7 /* Welcome */,
+				F68E7C25281314690065C4C7 /* TabBar */,
+				F68E7C1F281313E50065C4C7 /* Auth */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F68E7C1F281313E50065C4C7 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F6F60FC72810600C0061AD14 /* RegisterViewController.swift */,
+				F6F60FC528105FD90061AD14 /* LoginViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		F68E7C21281313F70065C4C7 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F6F60FBF281052570061AD14 /* FavoriteListViewController.swift */,
+				F6F60FCF28108A0A0061AD14 /* MovieDetailViewController.swift */,
+				F6F60FBD2810522C0061AD14 /* MovieListViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		F68E7C23281314100065C4C7 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				F6F60FC92810602F0061AD14 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		F68E7C25281314690065C4C7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F68E7C26281315E00065C4C7 /* ReusableCell */,
+				F68E7C21281313F70065C4C7 /* List */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F68E7C26281315E00065C4C7 /* ReusableCell */ = {
+			isa = PBXGroup;
+			children = (
+				F6F60FC1281057D90061AD14 /* MovieTableViewCell.swift */,
+			);
+			path = ReusableCell;
+			sourceTree = "<group>";
+		};
 		F6E52CB1280F460F00684410 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +170,43 @@
 		F6E52CBC280F460F00684410 /* TMDB */ = {
 			isa = PBXGroup;
 			children = (
+				F68E7C1E281313D00065C4C7 /* Controllers */,
+				F6F60FCB28107EA90061AD14 /* Views */,
+				F68E7C1B2813135E0065C4C7 /* Service */,
+				F6F60FCE28107F0C0061AD14 /* Utils */,
 				F6E52CBD280F460F00684410 /* AppDelegate.swift */,
 				F6E52CBF280F460F00684410 /* SceneDelegate.swift */,
-				F6E52CC1280F460F00684410 /* ViewController.swift */,
-				F6E52CC3280F460F00684410 /* Main.storyboard */,
 				F6E52CC6280F461200684410 /* Assets.xcassets */,
 				F6E52CC8280F461200684410 /* LaunchScreen.storyboard */,
 				F6E52CCB280F461200684410 /* Info.plist */,
+				F6E345672811D76C00BD9014 /* GoogleService-Info.plist */,
 			);
 			path = TMDB;
+			sourceTree = "<group>";
+		};
+		F6F60FBC281051E60061AD14 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F6E52CC3280F460F00684410 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F6F60FCB28107EA90061AD14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6F60FC2281057D90061AD14 /* MovieTableViewCell.xib */,
+				F6F60FBC281051E60061AD14 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6F60FCE28107F0C0061AD14 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F6E52CD4280F489900684410 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +225,13 @@
 			dependencies = (
 			);
 			name = TMDB;
+			packageProductDependencies = (
+				F6E52CD2280F46D900684410 /* Alamofire */,
+				F6E3456A2811E03F00BD9014 /* FirebaseAuth */,
+				F6E3456C2811E03F00BD9014 /* FirebaseFirestore */,
+				F68E7C142812FD870065C4C7 /* Realm */,
+				F68E7C162812FD870065C4C7 /* RealmSwift */,
+			);
 			productName = TMDB;
 			productReference = F6E52CBA280F460F00684410 /* TMDB.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +260,11 @@
 				Base,
 			);
 			mainGroup = F6E52CB1280F460F00684410;
+			packageReferences = (
+				F6E52CD1280F46D900684410 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F6E345692811E03F00BD9014 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F68E7C132812FD870065C4C7 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = F6E52CBB280F460F00684410 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +281,8 @@
 			files = (
 				F6E52CCA280F461200684410 /* LaunchScreen.storyboard in Resources */,
 				F6E52CC7280F461200684410 /* Assets.xcassets in Resources */,
+				F6E345682811D76C00BD9014 /* GoogleService-Info.plist in Resources */,
+				F6F60FC4281057D90061AD14 /* MovieTableViewCell.xib in Resources */,
 				F6E52CC5280F460F00684410 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +294,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6E52CC2280F460F00684410 /* ViewController.swift in Sources */,
+				F6F60FC3281057D90061AD14 /* MovieTableViewCell.swift in Sources */,
+				F6F60FC82810600C0061AD14 /* RegisterViewController.swift in Sources */,
+				F6F60FD028108A0A0061AD14 /* MovieDetailViewController.swift in Sources */,
+				F6F60FC0281052580061AD14 /* FavoriteListViewController.swift in Sources */,
+				F6E52CDB280F559500684410 /* MovieManager.swift in Sources */,
+				F6F60FCA2810602F0061AD14 /* WelcomeViewController.swift in Sources */,
+				F6F60FBE2810522C0061AD14 /* MovieListViewController.swift in Sources */,
+				F68E7C192812FEA10065C4C7 /* MovieModelRealm.swift in Sources */,
 				F6E52CBE280F460F00684410 /* AppDelegate.swift in Sources */,
 				F6E52CC0280F460F00684410 /* SceneDelegate.swift in Sources */,
+				F6E52CD7280F4C2E00684410 /* MovieData.swift in Sources */,
+				F6E52CD5280F489900684410 /* Constants.swift in Sources */,
+				F6F60FC628105FD90061AD14 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +378,7 @@
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -266,6 +433,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -358,6 +526,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F68E7C132812FD870065C4C7 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.19.0;
+			};
+		};
+		F6E345692811E03F00BD9014 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		F6E52CD1280F46D900684410 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F68E7C142812FD870065C4C7 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F68E7C132812FD870065C4C7 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F68E7C162812FD870065C4C7 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F68E7C132812FD870065C4C7 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		F6E3456A2811E03F00BD9014 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6E345692811E03F00BD9014 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F6E3456C2811E03F00BD9014 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6E345692811E03F00BD9014 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F6E52CD2280F46D900684410 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6E52CD1280F46D900684410 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F6E52CB2280F460F00684410 /* Project object */;
 }
