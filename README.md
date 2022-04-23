@@ -7,6 +7,7 @@ The Movie Data Base
 
 ![App Screenshot](https://i.imgur.com/E5M6aO6.png)
 
+## Screenshots
 ![App Screenshot](https://i.imgur.com/gNPWDET.png)
 
 ![App Screenshot](https://i.imgur.com/YC6JKrM.png)
