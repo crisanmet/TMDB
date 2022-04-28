@@ -34,13 +34,14 @@ class MovieDetailViewController: UIViewController {
         scoreLabel.text = selectedMovie?.voteAverageToString
         descriptionLabel.text = selectedMovie?.overview
         
-        MovieManager.shared.fetchImages(path: selectedMovie!.posterPath) { image in
-            DispatchQueue.main.async {
-                self.imageMovie.image = image
-                self.imageMovieSide.image = image
+        DispatchQueue.global(qos: .userInitiated).async {
+            MovieManager.shared.fetchImages(path: self.selectedMovie!.posterPath) { [weak self] (image) in
+                DispatchQueue.main.async {
+                    self?.imageMovie.image = image
+                    self?.imageMovieSide.image = image
+                }
             }
         }
-    
     }
     
     @IBAction func setFavoriteTapped(_ sender: UIButton) {

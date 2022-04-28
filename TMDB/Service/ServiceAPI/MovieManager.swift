@@ -25,7 +25,6 @@ struct MovieManager {
         let request = AF.request(urlString, method: .get, encoding: URLEncoding.default)
         
         request.responseDecodable(of: MovieResponse.self, decoder: JSONDecoder()){ response in
-            print(response)
             switch response.result{
             case .success(let dataResponse):
                 completionHandler(dataResponse)

@@ -17,12 +17,15 @@ class MovieListViewController: UIViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        MovieManager.shared.fetchMovies { [weak self] (movies) in
-            self?.moviesList = movies?.results ?? []
-            DispatchQueue.main.async {
-                self?.tableView.reloadData()
+        DispatchQueue.global(qos: .userInitiated).async {
+            MovieManager.shared.fetchMovies { [weak self] (movies) in
+                self?.moviesList = movies?.results ?? []
+                DispatchQueue.main.async {
+                    self?.tableView.reloadData()
+                }
             }
         }
+      
         tableView.dataSource = self
         tableView.delegate = self
         tableView.separatorStyle = .none
