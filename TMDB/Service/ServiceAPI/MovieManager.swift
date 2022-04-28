@@ -22,16 +22,19 @@ struct MovieManager {
         let apiKey = K.apiKey
         let urlString = "\(baseUrl)api_key=\(apiKey)"
         
-        let request = AF.request(urlString, method: .get)
+        let request = AF.request(urlString, method: .get, encoding: URLEncoding.default)
         
-        request.response { dataResponse in
-            
-            if let safeData = dataResponse.data {
-                let movies = try? JSONDecoder().decode(MovieResponse.self, from: safeData)
-                completionHandler(movies)
+        request.responseDecodable(of: MovieResponse.self, decoder: JSONDecoder()){ response in
+            print(response)
+            switch response.result{
+            case .success(let dataResponse):
+                completionHandler(dataResponse)
+            case .failure(let errorData):
+                print(errorData)
+            }
         }
-    }
 }
+    
     public func fetchImages(path: String , completionHandler: @escaping (UIImage?) -> ()){
         let baseUrl = K.imageURL
         let urlString = "\(baseUrl)\(path)"
