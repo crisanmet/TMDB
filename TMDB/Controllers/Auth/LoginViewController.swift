@@ -27,8 +27,10 @@ class LoginViewController: UIViewController {
                     self.errorLabel.text = e.localizedDescription
                     print(e.localizedDescription)
                 } else{
-                    self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+                    let mainTabBarController = storyBoard.instantiateViewController(withIdentifier: "TabBarController")
                     
+                    (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
                 }
             }
         }

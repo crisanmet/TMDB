@@ -23,7 +23,8 @@ class FavoriteListViewController: UIViewController {
         tableView.delegate = self
         
         tableView.register(UINib(nibName: "MovieTableViewCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
-        
+        navigationController?.navigationBar.topItem?.title = "Favorites"
+        navigationController?.navigationBar.prefersLargeTitles = true
         loadFavorites()
       
     }

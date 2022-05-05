@@ -25,7 +25,8 @@ class MovieListViewController: UIViewController  {
                 }
             }
         }
-        
+        navigationController?.navigationBar.topItem?.title = "Movies"
+        navigationController?.navigationBar.prefersLargeTitles = true
         tableView.dataSource = self
         tableView.delegate = self
         tableView.separatorStyle = .none

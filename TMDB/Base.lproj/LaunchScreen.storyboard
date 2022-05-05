@@ -24,7 +24,7 @@
                                         <rect key="frame" x="114.5" y="381.5" width="185" height="133"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" name="AccentColor"/>
+                                <color key="backgroundColor" name="PrimaryColor"/>
                                 <constraints>
                                     <constraint firstItem="AR7-96-soZ" firstAttribute="centerX" secondItem="nAw-BA-MQe" secondAttribute="centerX" id="lfa-WY-lE9"/>
                                     <constraint firstItem="AR7-96-soZ" firstAttribute="centerY" secondItem="nAw-BA-MQe" secondAttribute="centerY" id="pbG-hC-75b"/>
@@ -48,7 +48,7 @@
     </scenes>
     <resources>
         <image name="tmdbLogo" width="185.03999328613281" height="133.39999389648438"/>
-        <namedColor name="AccentColor">
+        <namedColor name="PrimaryColor">
             <color red="0.050980392156862744" green="0.14509803921568629" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
