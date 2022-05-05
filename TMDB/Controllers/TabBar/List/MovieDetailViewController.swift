@@ -15,7 +15,6 @@ class MovieDetailViewController: UIViewController {
     var isTapped:Bool = false
     let realm = try! Realm()
     
-    
     @IBOutlet weak var imageMovie: UIImageView!
     
     @IBOutlet weak var imageMovieSide: UIImageView!
@@ -30,6 +29,7 @@ class MovieDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print(isTapped)
         movieNameLabel.text = selectedMovie?.title
         scoreLabel.text = selectedMovie?.voteAverageToString
         descriptionLabel.text = selectedMovie?.overview
@@ -53,7 +53,7 @@ class MovieDetailViewController: UIViewController {
         let heartFill = UIImage(systemName: "heart.fill")
        
         isTapped == false ? sender.setImage(heart, for: .normal) : sender.setImage(heartFill, for: .normal)
-        
+    
         let movie = MovieRealm()
         movie.name = selectedMovie?.title
         do{

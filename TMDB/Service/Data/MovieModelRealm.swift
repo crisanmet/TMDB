@@ -10,4 +10,5 @@ import RealmSwift
 
 class MovieRealm: Object{
     @objc dynamic var name: String?
+    
 }

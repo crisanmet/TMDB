@@ -19,11 +19,10 @@ class MovieTableViewCell: UITableViewCell {
     }
     
     func updateInfo(movie:Movie){
-        labelMovieName.text = movie.title
-        
-        MovieManager.shared.fetchImages(path: movie.posterPath) { image in
+        MovieManager.shared.fetchImages(path: movie.posterPath) {[weak self] image in
             DispatchQueue.main.async {
-                self.imageMovie.image = image
+                self?.labelMovieName.text = movie.title
+                self?.imageMovie.image = image
             }
         }
     }
