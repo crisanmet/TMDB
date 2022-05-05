@@ -9,5 +9,5 @@ import Foundation
 import RealmSwift
 
 class MovieRealm: Object{
-    @objc var name: String?
+    @objc dynamic var name: String?
 }

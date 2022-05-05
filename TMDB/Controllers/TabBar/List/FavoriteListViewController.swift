@@ -29,9 +29,10 @@ class FavoriteListViewController: UIViewController {
     }
     
     func loadFavorites(){
-            favoritesMovies = realm.objects(MovieRealm.self)
+        DispatchQueue.main.async {
+            self.favoritesMovies = self.realm.objects(MovieRealm.self)
             self.tableView.reloadData()
-    
+        }
     }
 
 }
