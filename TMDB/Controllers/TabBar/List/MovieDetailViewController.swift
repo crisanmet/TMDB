@@ -53,6 +53,11 @@ class MovieDetailViewController: UIViewController {
         let heartFill = UIImage(systemName: "heart.fill")
        
         isTapped == false ? sender.setImage(heart, for: .normal) : sender.setImage(heartFill, for: .normal)
+        
+        sender.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
+        UIView.animate(withDuration: 1.2, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0.3, options: .curveEaseOut ,animations: {
+            sender.transform = CGAffineTransform(scaleX: 1, y: 1)
+        })
     
         let movie = MovieRealm()
         movie.name = selectedMovie?.title
